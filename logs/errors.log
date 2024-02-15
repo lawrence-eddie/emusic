@@ -1,0 +1,51 @@
+04.17.21 02:36:23 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 02:37:05 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 02:37:25 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 02:48:05 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:16:35 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:19:10 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:19:21 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:20:19 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:26:20 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:27:07 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:29:02 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:31:47 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:32:14 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:35:32 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:35:48 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:36:18 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:44:28 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:45:09 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:47:53 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:50:00 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:50:16 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:52:06 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:53:40 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:54:19 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 05:55:19 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 06:00:51 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 06:01:09 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 06:01:43 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 06:07:18 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 06:17:02 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.17.21 06:17:18 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+04.18.21 03:43:56 | Error | mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, string given
+04.18.21 03:44:27 | Error | mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, string given
+04.18.21 03:44:37 | Error | The number of variables must match the number of parameters in the prepared statement
+04.18.21 03:54:37 | Error | mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, string given
+06.10.21 04:57:54 | Error | mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given
+09.07.21 03:42:12 | Error | The number of variables must match the number of parameters in the prepared statement
+09.07.21 03:43:05 | Error | The number of variables must match the number of parameters in the prepared statement
+09.07.21 03:43:30 | Error | The number of variables must match the number of parameters in the prepared statement
+12.07.23 11:40:55 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.07.23 11:47:58 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.07.23 11:50:27 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.07.23 11:51:34 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.07.23 11:52:45 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.07.23 11:56:17 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.07.23 11:58:05 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.08.23 04:05:01 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.08.23 04:21:07 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.08.23 04:25:01 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.08.23 04:25:30 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference
+12.08.23 04:27:31 | Error | mysqli_stmt_bind_param(): Argument #9 cannot be passed by reference

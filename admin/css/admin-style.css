@@ -1,0 +1,103 @@
+/*-- Reset --*/
+html, body {
+  font-family: 'Nunito', 'Roboto', helvetica, sans-serif;
+  background-color: #F5F8FA;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/*=========== Notification =============*/
+span.userTabNoti {
+  color: #fff;
+  background-color: #ff3399;
+  font-size: 0.7em;
+  padding: 1px 1px 1px 3px;
+  position: absolute;
+  /* left: 13px; */
+  top: 10px;
+  z-index: 99;
+}
+span.userPcNoti {
+  color: #fff;
+  background-color: #ff3399;
+  font-size: 0.7em;
+  padding: 1px 1px 1px 3px;
+  position: absolute;
+  /* left: 13px; */
+  top: 5px;
+  z-index: 99;
+}
+
+span.msgTabNoti {
+  color: #fff;
+  background-color: #ff3399;
+  font-size: 0.7em;
+  padding: 1px 1px 1px 3px;
+  position: absolute;
+  /* left: 13px; */
+  top: 10px;
+  z-index: 99;
+}
+span.msgPcNoti {
+  color: #fff;
+  background-color: #ff3399;
+  font-size: 0.7em;
+  padding: 1px 1px 1px 3px;
+  position: absolute;
+  /* left: 13px; */
+  top: 5px;
+  z-index: 99;
+}
+
+a.userNotiLink:hover span.userTabNoti,
+a.userNotiLink:hover span.userPcNoti,
+a.msgNotiLink:hover span.msgTabNoti,
+a.msgNotiLink:hover span.msgPcNoti {
+  color: #ff3399;
+  background-color: #fff;
+}
+
+span.admin_msgReply {
+  color: #fff;
+  background-color: #ff3399;
+  font-size: 0.7em;
+  padding: 1px 1px 1px 3px;
+  position: absolute;
+}
+span.contactUs_msg {
+  color: #fff;
+  background-color: #ff3399;
+  font-size: 0.7em;
+  padding: 1px 1px 1px 3px;
+  position: absolute;
+}
+
+/*=========== Side Nav ============*/
+#sidebarMenu{
+  background-color: indigo !important;
+  color: yellow !important;
+}
+
+textarea.expanding{
+  border-radius: 20px !important;
+}
+#edit_app_dev_image_prev{
+  position: relative;
+  z-index: 3;
+}
+
+/*--- Buttons ---*/
+.emc_btn:focus {
+  border-color: rgb(153, 153, 255)!important;
+  box-shadow: 0 0 0 0.2rem rgba(153, 153, 255, 0.25)!important;
+}
+.emc_btn {
+  border-color: rgb(153, 153, 255);
+  color: rgb(128, 128, 255);
+}
+
+.emc_btn:hover {
+  background: rgb(153, 153, 255);
+  color: white;
+}

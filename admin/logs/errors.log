@@ -1,0 +1,170 @@
+11.30.20 02:33:26 | Error | Call to undefined function int()
+<br>02.05.21 05:06:48 | Error | Call to undefined function NOW()
+02.05.21 05:08:56 | Error | Call to undefined function NOW()
+04.10.21 02:39:52 | Error | mysqli_stmt object is not fully initialized
+04.10.21 04:12:27 | Error | mysqli_stmt object is not fully initialized
+05.03.21 03:15:18 | Error | mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+06.13.21 10:45:20 | Error | Call to undefined function int()
+06.13.21 10:48:32 | Error | Call to undefined function int()
+08.04.21 11:42:42 | Error | Undefined constant "AUDIO_DIR"
+08.04.21 12:00:59 | Error | mysqli_stmt object is not fully initialized
+08.04.21 12:14:10 | Error | mysqli_stmt object is not fully initialized
+08.04.21 12:17:35 | Error | mysqli_stmt object is not fully initialized
+08.04.21 12:23:18 | Error | mysqli_stmt object is not fully initialized
+08.04.21 12:23:58 | Error | mysqli_stmt object is not fully initialized
+08.04.21 12:37:58 | Error | Undefined constant "AUDIO_DIR"
+08.04.21 12:45:12 | Error | mysqli_stmt object is not fully initialized
+08.04.21 12:46:13 | Error | mysqli_stmt object is not fully initialized
+08.04.21 12:54:07 | Error | The number of elements in the type definition string must match the number of bind variables
+08.04.21 01:32:37 | Error | Call to undefined function int()
+08.04.21 02:05:10 | Error | Call to undefined function int()
+08.04.21 03:37:45 | Error | mysqli_stmt object is not fully initialized
+08.04.21 03:57:25 | Error | mysqli_stmt object is not fully initialized
+08.04.21 04:04:05 | Error | mysqli_stmt object is not fully initialized
+08.04.21 04:07:57 | Error | mysqli_stmt object is not fully initialized
+08.04.21 04:09:47 | Error | mysqli_stmt object is not fully initialized
+08.04.21 04:10:36 | Error | mysqli_stmt object is not fully initialized
+08.04.21 04:26:27 | Error | mysqli_stmt object is not fully initialized
+08.04.21 04:28:33 | Error | mysqli_stmt object is not fully initialized
+08.04.21 09:00:36 | Error | mysqli_stmt object is not fully initialized
+08.05.21 10:51:15 | Error | mysqli_stmt object is not fully initialized
+08.05.21 10:55:01 | Error | mysqli_stmt object is not fully initialized
+08.05.21 11:58:21 | Error | mysqli_stmt object is not fully initialized
+08.05.21 12:14:38 | Error | mysqli_stmt object is not fully initialized
+08.05.21 12:32:11 | Error | mysqli_stmt object is not fully initialized
+08.05.21 12:33:28 | Error | mysqli_stmt object is not fully initialized
+08.05.21 02:29:55 | Error | mysqli_stmt object is not fully initialized
+08.05.21 03:57:53 | Error | mysqli_stmt object is not fully initialized
+01.14.22 01:46:08 | Exception Error | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(audio.date_added, '%d %M, %Y') AS date_added, artist.artist_name, artist.art...' at line 2
+11.30.23 09:36:13 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 09:36:13 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:11:03 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:15:35 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:19:19 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:19:49 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:23:08 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:26:44 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:26:49 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:26:54 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:26:57 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 10:47:25 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 11:26:28 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 11:42:19 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 11:42:46 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 11:42:52 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:04:45 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:04:56 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:41:56 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:42:09 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:44:42 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:48:16 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:48:29 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:54:05 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 12:54:13 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:05:44 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:05:51 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:16:45 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:16:52 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:19:40 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:19:46 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:23:54 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:23:59 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:31:20 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 01:31:27 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:29:03 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:29:13 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:30:56 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:31:01 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:31:39 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:31:47 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:44:26 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:44:33 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:48:50 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 02:48:57 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:21:57 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:22:04 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:25:21 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:25:28 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:31:04 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:31:10 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:33:39 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:33:44 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:38:43 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:38:49 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:42:36 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:42:41 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:55:49 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 03:55:56 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:03:46 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:03:52 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:27:44 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:27:56 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:43:20 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:43:28 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:45:13 | Exception Error | Unknown column 'Ravage' in 'field list'
+11.30.23 04:45:13 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:45:49 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:45:57 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:46:02 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:46:54 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:47:00 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:49:21 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:49:27 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:51:16 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:51:22 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:52:56 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:53:03 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:54:16 | Exception Error | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't Leave by: Rema', 2, 3, 'artist/Rema/audio/Rema-Don't_Leave.jpeg',
+        ...' at line 3
+11.30.23 04:54:17 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:55:23 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:56:23 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:56:30 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:57:22 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+11.30.23 04:57:28 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 09:29:26 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 11:00:36 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 11:00:53 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 11:01:00 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 11:53:51 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 11:54:02 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 12:25:47 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 12:25:55 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 12:27:01 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 12:27:11 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 12:31:22 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 12:59:42 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 12:59:48 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:10:05 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:10:11 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:16:37 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:16:43 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:17:44 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:17:51 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:24:35 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:24:40 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:27:21 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:27:26 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:32:09 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:32:14 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:39:47 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 01:39:53 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 02:23:57 | Exception Error | Unknown column 'youtube_url' in 'field list'
+12.01.23 02:23:59 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:00:29 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:00:36 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:00:46 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:00:50 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:04:53 | Exception Error | Unknown column 'youtube_url' in 'field list'
+12.01.23 03:04:53 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:05:08 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:05:46 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:05:55 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.01.23 03:06:05 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.04.23 10:38:08 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.04.23 10:59:16 | Exception Error | Unknown column 'audio.downloads' in 'field list'
+12.13.23 06:46:10 | Exception Error | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Good (Tribe Tape), file_pic=artist/Pheelz/album/Pheelz_Good_(Tribe_Tape)/Phee...' at line 1
+12.13.23 06:52:28 | Exception Error | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Good (Tribe Tape), file_pic=artist/Pheelz/album/Pheelz_Good_(Tribe_Tape)/Phee...' at line 1
+12.13.23 07:05:20 | Exception Error | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Good (Tribe Tape), file_pic=artist/Pheelz/album/Pheelz_Good_(Tribe_Tape)/Phee...' at line 1
+12.13.23 07:11:25 | Exception Error | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Good (Tribe Tape), file_pic=artist/Pheelz/album/Pheelz_Good_(Tribe_Tape)/Phee...' at line 1
+12.13.23 07:13:29 | Exception Error | You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Good (Tribe Tape), file_pic=artist/Pheelz/album/Pheelz_Good_(Tribe_Tape)/Phee...' at line 1

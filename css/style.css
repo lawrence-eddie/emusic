@@ -1,0 +1,710 @@
+/*-- Reset --*/
+html, body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+}
+body{
+  background-image: linear-gradient(to right top, #f8e9f1, #f5e8f3, #f1e7f5, #ece6f7, #e6e6f8, #e2e8f9,
+    #dfeafa, #dcecf9, #def0f8, #e1f3f8, #e6f6f7, #ebf8f7);
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/*============= NAVIGATION =============*/
+
+nav{
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+.hamburger-container{
+  box-shadow: 0 0.1rem 1.2rem rgba(0, 0, 0, .2);
+  /* height: 2.8rem!important; */
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  background: rgb(236,187,221);
+  background: -moz-linear-gradient(90deg, rgba(236,187,221,1) 0%, rgba(134,168,231,1) 35%, rgba(95,251,241,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(236,187,221,1) 0%, rgba(134,168,231,1) 35%, rgba(95,251,241,1) 100%);
+  background: linear-gradient(90deg, rgba(236,187,221,1) 0%, rgba(134,168,231,1) 35%, rgba(95,251,241,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecbbdd",endColorstr="#5ffbf1",GradientType=1);
+}
+.hamburger-container button#btn-hamburger{
+  margin-top: 6px;
+  overflow: hidden!important;
+  /* background-color: rgba(236,187,221,1); */
+}
+/* .hamburger-container .index_navbar-brand a{} */
+.index_navbar-brand img{
+  height: 2.5rem;
+}
+#navbar_main, ul.emusicNavbar-dropdown {
+  box-shadow: 0 0.1rem 1.2rem rgba(0, 0, 0, .2);
+  /* height: 2.8rem!important; */
+  background: rgb(236,187,221);
+  background: -moz-linear-gradient(90deg, rgba(236,187,221,1) 0%, rgba(134,168,231,1) 35%, rgba(95,251,241,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(236,187,221,1) 0%, rgba(134,168,231,1) 35%, rgba(95,251,241,1) 100%);
+  background: linear-gradient(90deg, rgba(236,187,221,1) 0%, rgba(134,168,231,1) 35%, rgba(95,251,241,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecbbdd",endColorstr="#5ffbf1",GradientType=1);
+}
+ul.emusicNavbar-dropdown li a img{
+  height: 1.5rem!important;
+}
+#search_emusic:focus, #search_emusic:hover, #search_emusic:active, #search-button-addon:focus{
+  box-shadow: none!important;
+  transition: width 0.4s linear;
+}
+.navbar-nav .nav-item .active{
+  color:blue;
+}
+.animate {
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+/*---Profile card---*/
+div#profile-resume {
+  padding: 10px 10px;
+  background-color: none;
+  width: 100%;
+}
+div#profile-resume .card-img-top {
+  min-height: 120px;
+}
+li.img-dropdown-item:hover,
+li.img-dropdown-item:active {
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+.upload_image {
+  position: absolute;
+  bottom: 3px;
+  left: 70px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: rgba(224, 224, 209, 0.8);
+}
+
+/* ARTIST SPOTLIGHT */
+#spotlight-cover{
+  height: 400px!important;
+  overflow-y: hidden;
+  padding: 5px!important;
+  -moz-box-shadow:    inset 0 0 10px #cccccc;
+  -webkit-box-shadow: inset 0 0 10px #cccccc;
+  box-shadow:         inset 0 0 10px #cccccc;
+  border-style: solid;
+  border-width: thin;
+  border-color: #cccccc!important;
+  /* background-color: black; */
+}
+#spotlight-carousel div{
+  height: 347px!important;
+}
+#spotlight-carousel div img{
+  height: 100%!important;
+  object-fit: cover;
+  width: 100%!important;
+}
+#spotlight-writeUp{
+  height: 347px!important;
+  overflow-y: hidden;
+  padding: 0px!important;
+}
+
+/* POPULAR SONGS */
+#popular-songs{
+  padding: 0px!important;
+}
+/* #popular-songs .card-header{
+  /* padding-left: 5px; */
+/* } */
+/* #popular-songsCarousel{ */
+  /* height: 250px!important; */
+/* } */
+/* #popular-songsCarousel div{ */
+  /* height: 100vh!important; */
+/* } */
+#popular-songsCarousel div img{
+  height: 200px!important;
+  object-fit: cover;
+  width: 100%!important;
+}
+.popularSongs_inner, .news-post{
+  -webkit-box-shadow: 0 8px 20px -6px black;
+	-moz-box-shadow: 0 8px 20px -6px black;
+	box-shadow: 0 8px 20px -6px black;
+  /* box-shadow: 0 8px 20px -6px black; */
+  border-radius: 15px!important;
+}
+
+/* MAIN CONTENTS */
+div.middle-cols{
+  padding-left: 7px!important;
+  padding-right: 7px!important;
+}
+div.artist-card{
+  -webkit-box-shadow: 0 8px 20px -6px black;
+	-moz-box-shadow: 0 8px 20px -6px black;
+	box-shadow: 0 8px 15px -6px black;
+}
+.middle-cols .card img{
+  /* height: 250px!important; */
+  height: 15rem;
+  /* object-fit: cover; */
+}
+div.card-img-overlay, div.popularSong_items{
+  padding-left: 0px!important;
+  margin-left: 0px!important;
+}
+div.card-img-overlay .h5-span, div.popularSong_items p.popSong_img_overlay, p.relSong_img_overlay{ /*(Blur text background) */
+  position: absolute!important;
+  bottom: 0px!important;
+  width: 100%!important;
+  -webkit-backdrop-filter: blur(7px)!important;
+  backdrop-filter: blur(7px)!important;
+}
+/* =========(Blur text background)Support only mozilla */
+@-moz-document url-prefix() {
+  div.card-img-overlay .h5-span, div.popularSong_items p.popSong_img_overlay, p.relSong_img_overlay {
+    background-color: rgba(255, 255, 255, 0.3)!important;
+  }
+}
+/* =========Support other browser except mozilla */
+@supports not( -moz-appearance:none ){
+  /* Add non-firefox CSS code here */
+}
+div.card-img-overlay .h5-span h5, .carousel-caption, div.popularSong_items p.popSong_img_overlay, p.relSong_img_overlay{
+  text-shadow: 0px 0px 3px #000000;
+}
+/* =========(Blur text background)Support only mozilla */
+@-moz-document url-prefix() {
+  div.card-img-overlay .h5-span, div.popularSong_items p.popSong_img_overlay, p.relSong_img_overlay {
+    background-color: rgba(255, 255, 255, 0.3)!important;
+  }
+}
+/* =========Support other browser except mozilla */
+@supports not( -moz-appearance:none ){
+  /* Add non-firefox CSS code here */
+}
+div.card-img-overlay .h5-span h5, .carousel-caption, div.popularSong_items p.popSong_img_overlay, p.relSong_img_overlay{
+  text-shadow: 0px 0px 3px #000000;
+}
+p.relSong_img_overlay{
+  width: 90%!important;
+}
+
+/* ADVERT AND NEWS POST */
+#news-ads{
+  padding: 0px!important;
+}
+.advert{
+  height: 90px!important;
+}
+#news-postCarousel{
+  height: 250px!important;
+}
+#news-postCarousel div img{
+  height: 140px!important;
+  object-fit: cover;
+  width: 100%!important;
+}
+.fas {
+  margin-right: 4px !important; /*override*/
+}
+.fas .glyphicon {
+  margin-right: 0px !important; /*override*/
+}
+.pagination a {
+  color: #555;
+}
+.card ul.demo1 {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+div.news-post .card-body{
+  padding: 0px!important;
+}
+.news-item {
+  padding: 4px 0px;
+  margin: 0px;
+  border-bottom: 1px dotted #555;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*================ MUSIC.PHP STYLES ====================*/
+.music_advert, .music_advert img{
+  height: 250px!important;
+  width: 300px!important;
+}
+.large-rectangle-advert, .large-rectangle-advert img{
+  height: 280px !important;
+  width: 336px !important;
+}
+.leaderboard-advert, .leaderboard-advert img{
+  height: 90px !important;
+  width: 728px !important;
+}
+#audio_section {
+  -webkit-box-shadow: 0 8px 20px -6px black;
+	-moz-box-shadow: 0 8px 20px -6px black;
+	box-shadow: 0 8px 15px -6px black;
+}
+/* Related Songs */
+div.rel_song-carousel {
+  padding: auto 0px !important;
+  height: 300px;
+}
+div.rel_song-carousel .rel_song-carouselImg {
+  width: 300px!important;
+  height: 300px!important;
+}
+.float-app {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.otherSongsAd{
+  height: 295px!important;
+}
+/* Comment section */
+#comment-sect{
+  max-height: 90vh;
+  overflow-y: hidden;
+}
+#comment-sect{
+  overflow-y: auto;
+}
+#comment-sect ul.ul-comment{
+  margin-top: 10px;
+  padding: 0px 10px;
+  font-size: 16px !important;
+}
+#comment-sect ul.ul-comment li{
+margin: 5px 0px;
+}
+#comment-sect ul.ul-comment li h6 small{
+  display: inline-block;
+}
+#comment-sect ul.ul-comment li div.media-body{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+/* ajax comment */
+li.ajax-comment h6 small{
+  display: inline-block;
+}
+li.ajax-comment div.media-body{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+/*================ SPOTLIGHT.PHP STYLES ====================*/
+#spotlight-carousel_2 div{
+  height: 400px!important;
+  padding: 0px!important;
+  margin: 0px!important;
+}
+#spotlight-carousel_2 div img{
+  height: 100%!important;
+  object-fit: cover;
+  width: 100%!important;
+}
+#artistDetails_section {
+  background: none!important;
+  border: none!important;
+}
+#spotlight-songsCarousel{
+  height: 120px!important;
+}
+#spotlight-songsCarousel div img{
+  height: 200px!important;
+  object-fit: cover;
+  width: 100%!important;
+}
+
+/*================ POST.PHP STYLES ====================*/
+/* .news-post{
+  z-index: 999;
+} */
+.baguetteBoxOne img{
+  /* lightbox plugin */
+  width: 250px!important;
+  height: 250px!important;
+}
+.postNewsMainImg{
+  max-height: 500px!important;
+}
+
+/*================ ALBUM.PHP STYLES ====================*/
+.cover_album_pic{
+  /* Add the blur effect */
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height:90vh;
+  overflow: hidden;
+}
+.album-container{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  /* bottom: -30%; */
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  /* text-align: center; */
+  overflow: hidden;
+}
+#track_list{
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/*================ ALLSONGS.PHP STYLES ====================*/
+#carouselExampleCaptions {
+  height: 500px!important;
+}
+#carouselExampleCaptions img{
+  height: 500px!important;
+  object-fit: cover;
+}
+
+/*================ SEARCH.PHP STYLES ====================*/
+/* #search_emusic :focus{
+  border-color: rgb(153, 153, 255)!important;
+  box-shadow: 0 0 0 0.2rem rgba(153, 153, 255, 0.25)!important;
+} */
+.search_card, .search_img {
+  height: 100px!important;
+}
+.search_card {
+  background: rgba(134,168,231,.1);
+  background: -moz-linear-gradient(90deg, rgba(236,187,221,.1) 0%, rgba(134,168,231,.1) 35%, rgba(95,251,241,.1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(236,187,221,.1) 0%, rgba(134,168,231,.1) 35%, rgba(95,251,241,.1) 100%);
+  background: linear-gradient(90deg, rgba(236,187,221,.1) 0%, rgba(134,168,231,.1) 35%, rgba(95,251,241,.1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecbbdd",endColorstr="#5ffbf1",GradientType=.1);
+  /* opacity: 0.5; */
+}
+
+
+/*================ ABOUT.PHP STYLES ====================*/
+div#about_profile_pic {
+  background-color: none!important;
+  width: 150px!important;
+}
+div#about_profile_pic .card-img-top {
+  background-color: none!important;
+  max-height: 150px!important;
+}
+
+
+
+/*============= MEDIA QUERIES =============*/
+/* Devices under 1199px (xl) */
+@media (max-width: 1200px) {
+  div.cols{
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+  }
+  .news-item {
+    font-size: 14px;
+  }
+
+  /* MUSIC.PHP STYLES */
+  .music_advert, .music_advert img{
+    height: 250px!important;
+    width: 300px!important;
+  }
+  .large-rectangle-advert, .large-rectangle-advert img{
+    height: 280px !important;
+    width: 336px !important;
+  }
+  .otherSongsAd{
+    height:295px!important;
+  }
+
+  /* POST.PHP STYLES */
+  .baguetteBoxOne img{
+    width: 200px!important;
+    height: 200px!important;
+  }
+
+  /* ALBUM.PHP STYLES */
+  .cover_album_pic{
+    /* Add the blur effect */
+    min-height:95vh;
+  }
+
+}
+/* Devices under 992px (Alt lg) */
+@media (max-width: 992px) AND (min-width: 770px) {
+  /* MUSIC.PHP STYLES */
+  .music_advert, .music_advert img {
+    height: 250px !important;
+    width: 300px !important;
+  }
+
+  .large-rectangle-advert, .large-rectangle-advert img {
+    height: 280px !important;
+    width: 336px !important;
+  }
+  div.rel_song-carousel {
+    padding: auto 0px !important;
+    height: 200px;
+  }
+  div.rel_song-carousel .rel_song-carouselImg {
+    width: 250px!important;
+    height: 200px!important;
+  }
+  .otherSongsAd{
+    height:195px!important;
+  }
+  p.relSong_img_overlay{
+    width: 80%!important;
+  }
+
+  /* SPOTLIGHT.PHP STYLES */
+  .spotlight-oneSongCarousel {
+    height: 300px!important;
+  }
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 770px) {
+  div.artist-card img{
+    /* height: 15rem; */
+    object-fit: fill;
+  }
+  .upload_image {
+    position: absolute;
+    bottom: 30px;
+    left: 320px;
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgba(224, 224, 209, 0.8);
+  }
+  .upload_image img {
+    width: 70px!important;
+    height: 70px!important;
+  }
+  .all-songs{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  /* div.sm-device-ad, div.sm-device-ad img{
+    height: 300px;
+  } */
+  p.relSong_img_overlay{
+    width: 75%!important;
+  }
+
+  /* MUSIC.PHP STYLES */
+  .music_advert, .music_advert img{
+  height: 250px!important;
+  width: 300px!important;
+  }
+  .large-rectangle-advert, .large-rectangle-advert img{
+    height: 280px !important;
+    width: 336px !important;
+  }
+  div.rel_song-carousel {
+    padding: auto 0px !important;
+    height: 200px;
+  }
+  div.rel_song-carousel .rel_song-carouselImg {
+    width: 250px!important;
+    height: 200px!important;
+  }
+  .otherSongsAd{
+    height:195px!important;
+  }
+
+  /* SPOTLIGHT.PHP STYLES */
+  .spotlight-oneSongCarousel {
+    height: 300px!important;
+  }
+
+  /* POST.PHP STYLES */
+  /* .postNewsMainImg{
+    max-height: 350px!important;
+  } */
+
+  /* ALBUM.PHP STYLES */
+  .cover_album_pic{
+    /* Add the blur effect */
+    min-height:93vh;
+  }
+
+}
+/* Devices under 576px (sm) */
+@media (max-width: 576px) {
+  #spotlight-cover{
+    height: 200px!important;
+    overflow-y: hidden;
+    padding: 5px!important;
+    -moz-box-shadow:    inset 0 0 10px #cccccc;
+    -webkit-box-shadow: inset 0 0 10px #cccccc;
+    box-shadow:         inset 0 0 10px #cccccc;
+    border-style: solid;
+    border-width: thin;
+    border-color: #cccccc!important;
+    /* background-color: black; */
+    padding-bottom: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    margin-bottom: 0px!important;
+  }
+  #spotlight-carousel div{
+    height: 147px!important;
+  }
+  #spotlight-carousel div img{
+    height: 100%!important;
+    object-fit: cover;
+    width: 100%!important;
+  }
+  #spotlight-writeUp{
+    height: 147px!important;
+    overflow-y: hidden;
+    padding: 0px!important;
+    font-size: 14px;
+  }
+  .upload_image {
+    position: absolute;
+    bottom: 3px;
+    left: 120px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(224, 224, 209, 0.8);
+  }
+  .upload_image img {
+    width: 28px!important;
+    height: 28px!important;
+  }
+  /* div.sm-device-ad, div.sm-device-ad img{
+    height: 200px;
+  } */
+  div.middle-cols{
+    padding-top: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  div.artist-card img{
+    height: 12rem !important;
+    object-fit: fill;
+  }
+  p.relSong_img_overlay{
+  width: 85%!important;
+  }
+
+  /* MUSIC.PHP STYLES */
+  /* .sm-device-ad img{
+    height: 200px!important;
+  } */
+
+  /* SPOTLIGHT.PHP STYLES */
+  .spotlight-oneSongCarousel {
+    height: 250px!important;
+  }
+
+  /* POST.PHP STYLES */
+  .postNewsMainImg{
+    max-height: 350px!important;
+  }
+  .baguetteBoxOne img{
+    width: 150px!important;
+    height: 150px!important;
+  }
+
+  /* ALBUM.PHP STYLES */
+  .cover_album_pic{
+    /* Add the blur effect */
+    min-height:90vh;
+  }
+
+  /* ALLSONGS.PHP STYLES */
+  #carouselExampleCaptions {
+    height: 250px!important;
+  }
+  #carouselExampleCaptions img{
+    height: 250px!important;
+    object-fit: cover;
+  }
+
+  /* SEARCH.PHP STYLES */
+  .search_card, .search_img {
+    height: 50px!important;
+  }
+  .search_card .card-body p {
+    font-size: 12px!important;
+  }
+
+}
+
+
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid .container {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.rounded-pill {
+  border-radius: 20px!important;
+}
